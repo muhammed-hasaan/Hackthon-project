@@ -1,0 +1,552 @@
+body {
+    background-color: #F8F9FA;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    background-color: #7749F8;
+    /* width: 100%; */
+    color: white;
+
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.navbar>.logsinbtn {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.navbar>.logsinbtn>p {
+    margin-top: 14px;
+
+}
+
+.navbar>.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signupheading {
+    padding-left: 120px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+
+}
+
+.inputboxmaincontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputbox {
+    margin-top: 50px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 30%;
+    border-radius: 10px;
+    row-gap: 20px;
+    height: 400px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.inputbox>input {
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(207, 206, 206);
+}
+
+.inputbox>input:focus {
+    border: 2px solid #7749F8;
+}
+
+.inputbox>input:active {
+    border: 2px solid #7749F8;
+}
+
+.inputbox>.formbtn {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #7749F8;
+    border: 1px solid #7749F8;
+    color: #F8F9FA;
+}
+
+.inoutsofpostcontainer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    /* border: 1px solid black; */
+    padding: 30px;
+    row-gap: 20px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.inoutsofpostcontainer>input {
+    width: 800px;
+    height: 40px;
+    border-radius: 7px;
+    border: 1px solid rgb(197, 197, 197);
+    padding-left: 10px;
+}
+
+.inoutsofpostcontainer>textarea {
+    width: 800px;
+    border-radius: 7px;
+    border: 1px solid rgb(197, 197, 197);
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.inoutsofpostcontainermain {
+    padding-left: 120px;
+    margin-top: 50px;
+}
+
+.publishBlog {
+    width: 105px;
+    height: 35px;
+    border-radius: 10px;
+    color: white;
+    background-color: #7749F8;
+    border: 1px solid #7749F8;
+}
+
+.post {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 70%;
+    background-color: white;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    row-gap: 10px;
+}
+
+.usershowinpost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    column-gap: 15px;
+}
+
+.postdate {
+    color: gray;
+}
+
+.postpara {
+    color: gray;
+}
+
+.postuser {}
+
+.usershowinpost>div>img {
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+}
+
+.mainpostcontainer {
+    padding-left: 120px;
+}
+
+@media only screen and (max-width:1232px) {
+    #postname {
+        width: 700px;
+    }
+
+    #postdesc {
+        width: 700px;
+    }
+}
+
+@media only screen and (max-width:1088px) {
+    #postname {
+        width: 620px;
+    }
+
+    #postdesc {
+        width: 620px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    #postname {
+        width: 550px;
+    }
+
+    #postdesc {
+        width: 550px;
+    }
+
+    .inputbox {
+        margin-top: 50px;
+        padding-top: 60px;
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        width: 40%;
+        border-radius: 10px;
+        row-gap: 20px;
+        height: 400px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    }
+}
+
+@media only screen and (max-width:878px) {
+    #postname {
+        width: 500px;
+    }
+
+    #postdesc {
+        width: 500px;
+    }
+
+    .post {
+        width: 67%;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    #postname {
+        width: 430px;
+    }
+
+    #postdesc {
+        width: 430px;
+    }
+
+    .post {
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    #postname {
+        width: 400px;
+    }
+
+    #postdesc {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .inputbox {
+        margin-top: 50px;
+        padding-top: 60px;
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        width: 50%;
+        border-radius: 10px;
+        row-gap: 20px;
+        height: 400px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .updatecontainer {
+        width: 10%;
+    }
+
+    .inputbox {
+        margin-top: 50px;
+        padding-top: 60px;
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        width: 70%;
+        border-radius: 10px;
+        row-gap: 20px;
+        height: 400px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .navbar {
+        padding-left: 30px;
+        padding-right: 25px;
+        width: 91.5%;
+    }
+
+    .signupheading {
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 91%;
+    }
+
+    .post {
+        width: 91%;
+    }
+
+    .mainpostcontainer {
+        padding-left: 0%;
+        width: 100%;
+    }
+
+    #postname {
+        width: 600px;
+    }
+
+    #postdesc {
+        width: 600px;
+    }
+
+    .buttonbtnpublish {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: -80px;
+        width: 91%;
+    }
+
+    .inoutsofpostcontainermain {
+        padding-left: 0px;
+    }
+
+    .inoutsofpostcontainer {
+        width: 91%;
+    }
+}
+
+@media only screen and (max-width: 632px) {
+    #postname {
+        width: 530px;
+    }
+
+    #postdesc {
+        width: 530px;
+    }
+
+    .buttonbtnpublish {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: 1px;
+        width: 91%;
+    }
+}
+
+@media only screen and (max-width: 556px) {
+    #postname {
+        width: 450px;
+    }
+
+    #postdesc {
+        width: 450px;
+    }
+
+    .buttonbtnpublish {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: 13px;
+        width: 91%;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .inputbox {
+        margin-top: 50px;
+        padding-top: 60px;
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        width: 70%;
+        border-radius: 10px;
+        row-gap: 20px;
+        height: 400px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .navbar {
+        padding-left: 30px;
+        padding-right: 25px;
+        width: 91.5%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #postname {
+        width: 400px;
+    }
+
+    #postdesc {
+        width: 400px;
+    }
+
+    .buttonbtnpublish {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: 13px;
+        width: 91%;
+    }
+
+    .navbar {
+        padding-left: 10px;
+        width: 97.5%;
+        padding-right: 0px;
+    }
+
+    .signupheading {
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 87%;
+    }
+
+    .post {
+        width: 87%;
+    }
+
+    .inoutsofpostcontainermain {
+        width: 96%;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .inputbox {
+        margin-top: 50px;
+        padding-top: 60px;
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        border-radius: 10px;
+        row-gap: 20px;
+        height: 400px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .navbar {
+        padding-left: 10px;
+        width: 98%;
+        padding-right: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 790px) {}
+
+@media only screen and (max-width: 360px) {
+
+    .navbar>.heading>h3 {
+        font-size: 17px;
+        margin-top: -2px;
+    }
+
+    .navbar {
+        /* padding-left:30px ; */
+        /* padding-right:25px ; */
+        width: 85%;
+    }
+
+    .signupheading {
+        /* padding-left:30px ; */
+        /* padding-right:80px ; */
+        width: 84%;
+    }
+
+    .post {
+        width: 84%;
+    }
+
+    .mainpostcontainer {
+        padding-left: 0%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 325px) {
+    .navbar {
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 97%;
+    }
+
+    .signupheading {
+        /* padding-left:30px ; */
+        /* padding-right:80px ; */
+        width: 84%;
+    }
+
+    .post {
+        width: 84%;
+    }
+
+    .mainpostcontainer {
+        padding-left: 0%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .navbar {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 93%;
+    }
+
+    .signupheading {
+        /* padding-left:30px ; */
+        /* padding-right:80px ; */
+        width: 80%;
+    }
+
+    .post {
+        width: 80%;
+    }
+
+    .mainpostcontainer {
+        padding-left: 0%;
+        width: 100%;
+    }
+}

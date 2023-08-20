@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0px;
+            font-family: sans-serif;
+            padding: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+
+
+    <div class="navbar">
+        <div class="heading">
+            <a href="./index.html" style="text-decoration: none; color: white;">
+                <h3> Hasaan Blogging App</h3>
+            </a>
+        </div>
+        <div class="logsinbtn">
+            <a style="text-decoration: none; color: white; cursor: pointer;" style="display: none;" id="userss">
+                <p style="display: none;">User</p>
+            </a>
+            <a style="text-decoration: none; color: white; cursor: pointer;" id="logout" style="display: none;"
+                id="logout">
+                <p style="display: none;" id="logout1">Login</p>
+            </a>
+            <a style="text-decoration: none; color: white; cursor: pointer;" href="./login.html">
+                <p id="loginmain">Login</p>
+            </a>
+
+        </div>
+    </div>
+
+
+    <!-- navbar -->
+
+    <!-- heading -->
+    <div class="signupheading">
+        <div class="signupheading1">
+            <h1>Profile</h1>
+        </div>
+    </div>
+    <!-- heading -->
+
+    <div
+        style="display: flex; justify-content: flex-start; align-items: center;background-color: transparent;margin-top: 20px;">
+        <div class="updatecontainer" style="margin-left: 120px; background-color: white; width: 60%; padding:20px;">
+            <img style="width: 270px; height: 220px; border-radius: 20px;" id="updimage"
+                src="https://th.bing.com/th?id=OIP.4VPed2j4f1-q-kzIQQdrnQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
+                alt="" id="updimg">
+            <h3 style="margin-top: 20px;">First Name</h3>
+            <h4 id="username" style="margin-top: 20px; color: gray;">User Name</h4>
+            <h3 style="margin-top: 20px;">Second Name</h3>
+            <h4 id="username2" style="margin-top: 20px; color: gray;">User Name2</h4>
+            <h3 style="margin-top: 20px;">User Password</h3>
+            <h4 id="userpassword" style="margin-top: 20px; color: gray;">User Password</h4>
+            <div
+                style="margin-top: 10px; display: flex; justify-content: flex-start; align-items: flex-start; row-gap: 15px; flex-direction: column;">
+
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br>
+    <script type="module" src="../js/update.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</body>
+
+</html>

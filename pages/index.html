@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <style>
+        * {
+            margin: 0px;
+            font-family: sans-serif;
+            padding: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+
+
+    <div class="navbar">
+        <div class="heading">
+            <a href="./index.html" style="text-decoration: none; color: white;">
+                <h3> Hasaan Blogging App</h3>
+            </a>
+        </div>
+        <div class="logsinbtn">
+            <a style="text-decoration: none; color: white; cursor: pointer;" style="display: none;" id="userss">
+                <p style="display: none;">User</p>
+            </a>
+            <a style="text-decoration: none; color: white; cursor: pointer;" id="logout" style="display: none;"
+                id="logout">
+                <p style="display: none;" id="logout1">Login</p>
+            </a>
+            <a style="text-decoration: none; color: white; cursor: pointer;" href="./login.html">
+                <p id="loginmain">Login</p>
+            </a>
+
+        </div>
+    </div>
+
+
+    <!-- navbar -->
+
+    <!-- heading -->
+    <div class="signupheading">
+        <div class="signupheading1">
+            <h1>Dashboard</h1>
+        </div>
+    </div>
+    <!-- heading -->
+
+
+    <!-- postinput -->
+    <div class="inoutsofpostcontainermain" id="postadder" style="display: none;">
+        <div class="inoutsofpostcontainer">
+            <input type="text" placeholder="Placeholder" id="postname">
+            <textarea cols="30" rows="5" placeholder="What is in your Mind" id="postdesc"></textarea>
+            <div class="buttonbtnpublish" style="display: flex;justify-content: flex-start; width: 94%;">
+                <button class="publishBlog" id="Publish">Publish Blog</button>
+            </div>
+        </div>
+    </div>
+    <!-- postinput -->
+    <div id="mainpostcontainer" class="mainpostcontainer">
+
+
+    </div>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+
+
+
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script type="module" src="../js/index.js"></script>
+</body>
+
+</html>
