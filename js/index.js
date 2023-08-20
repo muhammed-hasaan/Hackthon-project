@@ -122,7 +122,7 @@ onAuthStateChanged(auth, async (user) => {
       document.getElementById("mainpostcontainer").innerHTML = ''
       querySnapshot.forEach((change) => {
         console.log(change.data(), "with user");
-        getDownloadURL(ref(storage, change.data().email))
+        getDownloadURL(ref(storage, user.email))
           .then((url) => {
             //   localStorage.setItem("imageurl"  ,JSON.stringify(url))
             // localStorage.setItem("email" ,JSON.stringify(email))
